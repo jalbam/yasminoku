@@ -1,0 +1,189 @@
+body {
+	height:100%;
+	margin: 0;
+	padding: 0;
+	border: none;
+	background-image: url(hat.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+	background-color: #999;
+
+	font-family: Arial;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #333;
+	text-decoration: none;
+}
+
+#cont {
+	margin-left: auto;
+	margin-right: auto;
+	width: 780px;
+}
+#contleft {
+	float:left;
+	width: 780px;
+}
+#contright {
+	float:left;
+	width: 160px;
+}
+
+#fej {
+	width: 773px;
+	height: 120px;
+	background-image: url(fej.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	text-align: right;
+	padding-right: 7px;
+	margin-top:10px;
+}
+
+#tartalom {
+	width: 780px;
+	background-color:#000;
+	padding: 10px 0;
+}
+
+#lab {
+	clear:both;
+	width: 550px;
+	height: 72px;
+	background-image: url(lab.jpg);
+	text-align: left;
+	vertical-align: middle;
+	padding: 8px 225px 0 5px;
+}
+#lab p { margin: 3px 0 0 0; font-size: 12px; }
+
+
+#fej p { margin: 5px 0 0 0; font-weight: bold; }
+#fej a { color: #fff; }
+
+#fmenu { padding:13px 0 10px 0; float:right; }
+#fmenu ul { padding:0; margin:0; list-style-type:none; }
+#fmenu li { float:left; width:50px; height: 53px; margin:0 2px; position:relative; }
+#fmenu a { outline: none; width:50px; height: 53px; display:block; }
+#fmenu img { border:none; }
+
+#fmenu ul li .hover { width:50px; height:53px; border:none; }
+
+#fmenu ul li div { position:absolute; top:52px; right:-8px; width:154px; z-index:100; background-color:#000; background-repeat: no-repeat; background-position: center bottom; visibility:hidden;
+	border: 1px solid #aaa; border-radius:15px; -moz-border-radius:15px; -webkit-border-radius:15px; -opera-border-radius:15px; -khtml-border-radius:15px; padding:8px 0 0 0;
+	color:#fff; text-align:center; font-size: 20px; }
+#fmenu ul li:hover div { visibility:visible; }
+
+
+
+.br { clear:both; }
+
+
+#fooldal {
+	width: 720px;
+	position: relative;
+	padding: 20px;
+}
+.jatek {
+	position: relative;
+	width: 150px;
+	text-align: center;
+	float:left;
+	margin: 15px;
+	padding-bottom: 75px;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	color: #fff;
+}
+.jatek img { border:none; }
+.jatek .tipp { position:absolute; top:145px; right:0; width:150px; background-color:#000; padding:8px 0; visibility:hidden;
+	border: 1px solid #aaa; border-radius:15px; -moz-border-radius:15px; -webkit-border-radius:15px; -opera-border-radius:15px; -khtml-border-radius:15px;
+	color:#fff; text-align:center; }
+.jatek:hover .tipp { visibility:visible; }
+.jatek a { color: #fff; font-size: 20px; outline: none; display:block; }
+.jatek a:hover { color: #fff; }
+
+.ingyenflashjatek { display:block; width:540px; height:85px; margin:20px 40px 10px 40px; padding:15px 20px 0 120px; color:#80007e; font-size:16px; background-image: url(ingyenflashjatekok.png); }
+.ingyenflashjatek b { display:block; color:#80007e; font-size:20px; font-weight:bold; }
+.ingyenflashjatek:hover, .ingyenflashjatek:hover b { color:#40003f !important; }
+
+.sakk { background-image: url(jatek/sakk_ingyen.jpg); }
+.sudoku { background-image: url(jatek/sudoku_ingyen.jpg); }
+.amoba { background-image: url(jatek/amoba_ingyen.jpg); }
+.torpedo { background-image: url(jatek/torpedo_ingyen.jpg); }
+.puzzle { background-image: url(jatek/puzzle_ingyen.jpg); }
+.aknakereso { background-image: url(jatek/aknakereso_ingyen.jpg); }
+.kartya { background-image: url(jatek/kartya_ingyen.jpg); }
+.tetrisz { background-image: url(jatek/tetris_ingyen.jpg); }
+.oltoztetos { background-image: url(jatek/oltoztetos_ingyen.jpg); }
+
+#ujdonsag { position:relative; float:left; width: 330px; margin: 15px; text-align:right; color: #fff; font-size: 20px; }
+
+#aknakereso { position: relative; width:440px; height:500px; margin-left:175px; background-color:#202020; }
+#amoba { position: relative; width:440px; height:440px; margin-left:168px; background-color:#202020; }
+#sakk { position: relative; width:460px; height:520px; background-color:#202020; overflow:hidden; }
+#tetris { position: relative; width:440px; height:500px; margin-left:175px; background-color:#202020; overflow:hidden; }
+#puzzle { position: relative; width:460px; height:500px; margin-left:155px; background-color:#202020; }
+
+#sudokuvalaszto { position: relative; width:550px; height:400px; margin-left:200px; overflow:hidden; color:#ddd; }
+#sudoku { position: relative; width:460px; height:570px; background-color:#202020; overflow:hidden; }
+#sudoku2 { position: relative; width:460px; height:510px; overflow:hidden; }
+
+#torpedo { position: relative; height:580px; }
+#torpedo #jatekmezo { position: absolute; left:-90px; top:0; width:930px; height:580px; background-color:#9999aa; overflow:visible;
+	border: 10px solid #000; border-radius:15px; -moz-border-radius:15px; -webkit-border-radius:15px; -opera-border-radius:15px; -khtml-border-radius:15px; }
+
+#kartyak { position: relative; width:610px; height:450px; overflow:hidden; }
+#kartya { position: relative; margin-left:-10px; width:620px; height:450px; }
+
+
+#adbal { width:150px; padding:0 3px 0 5px; float:left; color: #aaa; overflow:hidden; }
+
+#adfent { width:336px; height:280px; padding:10px 0 0 0; margin:0 auto; }
+#adfentnagy { width:728px; height:90px; padding:10px 0 0 0; margin:0 auto; }
+#adjobb { width:160px; height:600px; float:right; background-color:#202020; }
+
+
+#jatekfej { width: 760px; height:190px; }
+#jatekfej div { float: left; width:220px; padding: 0 5px; color: #aaa; }
+
+
+h1 {
+	font-size: 14px;
+	display: inline;
+	color: #555;
+}
+h2 {
+	font-size: 20px;
+	color: #fff;
+	text-align:center;
+	margin: 0;
+	padding: 0;
+}
+h3 {
+	font-size: 12px;
+	display: inline;
+	color: #555;
+}
+
+a {
+	font-size: 12px;
+	color: #222;
+	text-decoration: none;
+}
+a:hover {
+	color: #fff;
+}
+
+.szurke { font-size: 12px; color: #666; }
+
+.fooldalra { float:left; }
+.fooldalra img { border:none; width:150px; height:55px; }
+.fooldalra a { outline: none; }
+
+.kedvenc { font-size: 12px; color: #fff; text-align:left; display:block; margin-top:50px; outline: none; }
+.kedvenc img { border:none; padding-right:10px; float:left; }
+.szurke .kedvenc { margin-top:25px; }

@@ -1,0 +1,168 @@
+ {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+HTML {
+	BACKGROUND: url(/image/bg-body.gif)
+}
+BODY {
+	FONT-SIZE: small; BACKGROUND: url(/image/bg-hlavicka.gif) repeat-x 0px 0px; LINE-HEIGHT: 140%; FONT-FAMILY: "Trebuchet MS", "Geneva CE", lucida, sans-serif
+}
+FIELDSET {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+.zemContactForm LEGEND {
+	DISPLAY: none
+}
+.zemContactForm {
+	MARGIN: 15px 0px
+}
+#kontejner {
+	MARGIN: 0px auto; WIDTH: 95%; POSITION: relative
+}
+#hlavicka {
+	HEIGHT: 107px
+}
+#hlavicka H1 {
+	DISPLAY: inline; FLOAT: left; WIDTH: 275px; POSITION: relative; HEIGHT: 107px
+}
+#hlavicka H1 SPAN {
+	DISPLAY: block; Z-INDEX: 1; BACKGROUND: url(/image/logo.gif); LEFT: 0px; WIDTH: 275px; CURSOR: hand; POSITION: absolute; TOP: 0px; HEIGHT: 107px
+}
+#hlavicka H2 {
+	FLOAT: left; MARGIN: 65px 0px 0px 75px; WIDTH: 289px; POSITION: relative; HEIGHT: 35px
+}
+#hlavicka H2 SPAN {
+	DISPLAY: block; Z-INDEX: 1; BACKGROUND: url(/image/bud-expert.gif) no-repeat 0px 0px; LEFT: 0px; WIDTH: 289px; POSITION: absolute; TOP: 0px; HEIGHT: 35px
+}
+UL#menu {
+	MARGIN-LEFT: 15px; PADDING-TOP: 10px
+}
+#menu LI {
+	BACKGROUND: url(/image/bg-menu.png) repeat-x 0px 0px; FLOAT: left; LINE-HEIGHT: 33px; LIST-STYLE-TYPE: none
+}
+#menu LI.active {
+	BACKGROUND: url(/image/bg-menu_active.png) repeat-x 0px 0px
+}
+#menu LI.active A {
+	COLOR: #003b5f
+}
+#menu LI SPAN.prvni {
+	DISPLAY: block; PADDING-LEFT: 10px; BACKGROUND: url(/image/menu-lr.png) no-repeat 0px 0px
+}
+#menu LI SPAN.posledni {
+	PADDING-RIGHT: 10px; DISPLAY: block; BACKGROUND: url(/image/menu-pr.png) no-repeat 100% 0px
+}
+#menu LI A {
+	BORDER-RIGHT: #055181 1px solid; PADDING-RIGHT: 7px; DISPLAY: block; PADDING-LEFT: 7px; FONT-WEIGHT: 600; FONT-SIZE: 85%; FLOAT: left; PADDING-BOTTOM: 0px; COLOR: #e1f2fa; PADDING-TOP: 0px; HEIGHT: 33px; TEXT-DECORATION: none
+}
+#menu LI.prvni A {
+	PADDING-LEFT: 0px
+}
+#menu LI.posledni A {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px
+}
+#menu LI A:hover {
+	BACKGROUND: url(/image/bg-menu_hover.png) repeat-x 0px 0px
+}
+#menu LI A:unknown {
+	BACKGROUND: url(/image/bg-menu_hover.png) repeat-x 0px 0px
+}
+#menu LI A:active {
+	BACKGROUND: url(/image/bg-menu_hover.png) repeat-x 0px 0px
+}
+#obsah {
+	CLEAR: both; BACKGROUND: url(/image/bg-sloupec.png) #fff repeat-y right top
+}
+#text {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 0px; MARGIN-RIGHT: 198px; PADDING-TOP: 0px
+}
+#text H2 {
+	MARGIN-TOP: 0.5em; FONT: 170% Georgia,Serif; COLOR: #478f00
+}
+#text H3 {
+	MARGIN-TOP: 1em; FONT: 130% Georgia,Serif; COLOR: #478f00
+}
+#text H4 {
+	MARGIN-TOP: 1em; FONT: 130% Georgia,Serif; COLOR: #478f00
+}
+#text P {
+	MARGIN: 1em 0px
+}
+#text LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 15px; LINE-HEIGHT: 1.2em; PADDING-TOP: 0px
+}
+#text A {
+	COLOR: #478f00
+}
+#text A:hover {
+	BACKGROUND: #ef6b00; COLOR: white
+}
+#text A:unknown {
+	BACKGROUND: #ef6b00; COLOR: white
+}
+#text A:active {
+	BACKGROUND: #ef6b00; COLOR: white
+}
+#text A IMG {
+	BORDER-RIGHT: #478f00 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #478f00 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #478f00 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #478f00 1px solid
+}
+#text A:hover IMG {
+	BORDER-RIGHT: #ef6b00 1px solid; BORDER-TOP: #ef6b00 1px solid; BORDER-LEFT: #ef6b00 1px solid; BORDER-BOTTOM: #ef6b00 1px solid
+}
+#text DIV.reklamni-banner {
+	MARGIN: 30px 0px 5px; TEXT-ALIGN: center
+}
+#text P.ikonky {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+P.drobecky {
+	PADDING-LEFT: 15px; FONT-SIZE: x-small; BACKGROUND: url(/image/lhr.png) #a5d9f1 no-repeat 0px 0px; LINE-HEIGHT: 30px; HEIGHT: 30px
+}
+.drobecky A {
+	COLOR: #033555
+}
+.drobecky A:hover {
+	TEXT-DECORATION: none
+}
+#sloupec {
+	PADDING-LEFT: 10px; BACKGROUND: url(/image/sloupec-hore.png) no-repeat 0px 0px; FLOAT: right; OVERFLOW: hidden; WIDTH: 188px
+}
+#sloupec FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: 155px; PADDING-TOP: 5px; HEIGHT: 25px
+}
+#sloupec INPUT.hledat {
+	BACKGROUND: #eeffcf; WIDTH: 120px
+}
+#sloupec FIELDSET {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+#sloupec LEGEND {
+	DISPLAY: none
+}
+#paticka {
+	FONT-SIZE: 85%; BACKGROUND: url(/image/bg-paticka.png) repeat-x 0px 0px; COLOR: #ffffff; HEIGHT: 31px
+}
+#paticka A {
+	COLOR: #addf53
+}
+#paticka A:hover {
+	TEXT-DECORATION: none
+}
+#paticka P.patka {
+	PADDING-LEFT: 15px; BACKGROUND: url(/image/patka.png) no-repeat left bottom; FLOAT: left; LINE-HEIGHT: 31px
+}
+#paticka P.ivorius {
+	PADDING-RIGHT: 25px; PADDING-LEFT: 13px; BACKGROUND: url(/image/patka-vlevo.png) no-repeat right top; FLOAT: right; WIDTH: 160px; LINE-HEIGHT: 31px
+}
+A.pristupnost {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em; LEFT: 10%; BORDER-BOTTOM-WIDTH: 0px! important; PADDING-BOTTOM: 0.2em; PADDING-TOP: 0.2em; POSITION: absolute; TOP: 0px
+}
+A.pristupnost:unknown {
+	Z-INDEX: 2; BACKGROUND: #fff
+}
+A.pristupnost:active {
+	Z-INDEX: 2; BACKGROUND: #fff
+}
+IMG#nalepka {
+	Z-INDEX: 2; RIGHT: 5%; POSITION: absolute; TOP: 11px
+}
