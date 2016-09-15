@@ -13,6 +13,9 @@ Version: 0.75a
 You can donate at http://sourceforge.net/donate/index.php?group_id=173557
 
 
+![ScreenShot](screenshot.jpg)
+
+
 Description
 
 Open source Sudoku (game, generator and solver) totally written in DHTML (HTML, CSS and JavaScript).
