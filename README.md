@@ -16,7 +16,7 @@ You can donate at http://sourceforge.net/donate/index.php?group_id=173557
 ![ScreenShot](screenshot.jpg)
 
 
-Description
+## Description
 
 Open source Sudoku (game, generator and solver) totally written in DHTML (HTML, CSS and JavaScript).
 
@@ -37,7 +37,7 @@ Other modified and adapted versions of this game can be found on the Internet, i
 This game has been tested under BeOS, Linux, NetBSD, OpenBSD, FreeBSD, Windows, Mac OS X, BlackBerry Tablet OS, Android, iOS and others.
 
 
-UPDATE (9th December 2014):
+### UPDATE (9th December 2014):
 
 The new improved version (0.75a) comes with some bug fixes, using some CSS3 effects and HTML5, a better mobile devices support, autosave (using Web Storage and falling back to cookies if not supported), it is printer-friendly, it adapts automatically to any screen resolution (200 x 180 is the minimum), improves browser integration (can be included easily in any web site with an IFRAME, for example), is available for and ported to many platforms and can be ported to many more (it is compatible with Apache Cordova, PhoneGap Build, PhoneGap, Intel XDK, BlackBerry WebWorks, virtually any browser extension guidelines and so on), and is now multilingual with language auto-detection (main version includes Chinese, English, Catalan and Spanish languages and it is very easy to add new ones).
 
@@ -53,5 +53,8 @@ Native ports that has been tested should work properly. Browser version will wor
 
 Apart from the normal version (for web browsers), some ports and versions include Android (including Nokia X and Fire OS which is used by Amazon Kindle Fire, Amazon Fire TV, Amazon Fire TV, Fire Phone, etc.), iOS (iPhone, iPod Touch, iPad), BlackBerry 10, BlackBerry Tablet OS (BlackBerry PlayBook), Nokia Series 40 (S40) / WRT Widget, Nokia Asha widget / W3C Packaged Web App (W3C Widget), Windows Phone 7 & 8, Chrome OS / Chromium OS (Google Chrome App), Firefox OS (Mozilla Firefox App), Mozilla Firefox Add-on, Opera Extension (Opera add-on), Google Chrome extension, Safari extension, WebOS, Facebook App, Windows 32 bit (including installer), Apple Mac OS X (Intel), Linux x86 (32 bit and 64 bit), Raspberry Pi and compatible (Linux as Raspbian or Pidora), etc. 
 
+Play online in multiple languages: http://yasminoku.tuxfamily.org/new/online/
+
+Play online in multiple languages (mirror): http://www.dhtmlgames.com/yasminoku/new/online/
 
 Official web site: http://yasminoku.tuxfamily.org/ (mirror at http://www.dhtmlgames.com/yasminoku/).
