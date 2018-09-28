@@ -53,6 +53,8 @@ Native ports that has been tested should work properly. Browser version will wor
 
 Apart from the normal version (for web browsers), some ports and versions include Android (including Nokia X and Fire OS which is used by Amazon Kindle Fire, Amazon Fire TV, Amazon Fire TV, Fire Phone, etc.), iOS (iPhone, iPod Touch, iPad), BlackBerry 10, BlackBerry Tablet OS (BlackBerry PlayBook), Nokia Series 40 (S40) / WRT Widget, Nokia Asha widget / W3C Packaged Web App (W3C Widget), Windows Phone 7 & 8, Chrome OS / Chromium OS (Google Chrome App), Firefox OS (Mozilla Firefox App), Mozilla Firefox Add-on, Opera Extension (Opera add-on), Google Chrome extension, Safari extension, WebOS, Facebook App, Windows 32 bit (including installer), Apple Mac OS X (Intel), Linux x86 (32 bit and 64 bit), Raspberry Pi and compatible (Linux as Raspbian or Pidora), etc. 
 
+To read more about how to use it in your web site, port it to other platforms, translate it to other languages, etc. please, refer to its official site below.
+
 Play online in multiple languages: http://yasminoku.tuxfamily.org/new/online/
 
 Play online in multiple languages (mirror): http://www.dhtmlgames.com/yasminoku/new/online/
