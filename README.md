@@ -49,7 +49,7 @@ The game is specially designed to allow to be used inside any other web site (by
 
 Since you can choose the initial numbers, from 0 to 81, keep in mind that sometimes the game can generate sudokus with more than one solution.
 
-Native ports that has been tested should work properly. Browser version will work virtually everywhere, in modern browsers as well as in old ones (including Internet Explorer 5.0).
+Native ports that have been tested should work properly. Browser version will work virtually everywhere, in modern browsers as well as in old ones (including Internet Explorer 5.0).
 
 Apart from the normal version (for web browsers), some ports and versions include Android (including Nokia X and Fire OS which is used by Amazon Kindle Fire, Amazon Fire TV, Amazon Fire TV, Fire Phone, etc.), iOS (iPhone, iPod Touch, iPad), BlackBerry 10, BlackBerry Tablet OS (BlackBerry PlayBook), Nokia Series 40 (S40) / WRT Widget, Nokia Asha widget / W3C Packaged Web App (W3C Widget), Windows Phone 7 & 8, Chrome OS / Chromium OS (Google Chrome App), Firefox OS (Mozilla Firefox App), Mozilla Firefox Add-on, Opera Extension (Opera add-on), Google Chrome extension, Safari extension, Microsoft Edge extension, WebOS, Facebook App, Windows 32 bit (including installer), Apple Mac OS X (Intel), Linux x86 (32 bit and 64 bit), Raspberry Pi and compatible (Linux as Raspbian or Pidora), etc. 
 
