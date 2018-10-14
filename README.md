@@ -22,7 +22,7 @@ Open source Sudoku (game, generator and solver) totally written in DHTML (HTML, 
 
 It is my fifth DHTML game and was made in mid 2006.
 
-The game will generate sudokus and the player will have to solve them. But it is not only a normal sudoku game but also a sudoku solver, allowing users to introduce their own sudoku in order to solve it.
+The game will generate sudokus and the player will have to solve them. It is not only a normal sudoku game but also a sudoku solver, allowing users to introduce their own sudoku in order to solve it.
 
 You can also change the game behaviour easily by editing many of the configuration variables which are at the beginning of the script.
 
