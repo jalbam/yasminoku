@@ -28,7 +28,7 @@ You can also change the game behaviour easily by editing many of the configurati
 
 This game doesn't use any image at all, just pure HTML and CSS.
 
-The game has been quite successful and famous, included for instance in a famous Spanish online newspaper called "Libertad Digital".
+The game has been quite successful and famous, included for instance in a famous Spanish online newspaper called "[Libertad Digital](https://www.libertaddigital.com/)".
 
 Official languages are Spanish and English. You can find a lot of translations in other languages over the Internet, including German, French, Portuguese, Czech, Hungarian and Chinese.
 
