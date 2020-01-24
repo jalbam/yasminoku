@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<script>
+			window.fbAsyncInit = function()
+			{
+				FB.init(
+					{
+					  appId      : '357429491101477',
+					  xfbml      : true,
+					  version    : 'v2.2'
+					}
+				);
+
+				// ADD ADDITIONAL FACEBOOK CODE HERE
+			};
+
+			(function(d, s, id){
+			 var js, fjs = d.getElementsByTagName(s)[0];
+			 if (d.getElementById(id)) {return;}
+			 js = d.createElement(s); js.id = id;
+			 js.src = "//connect.facebook.net/en_US/sdk.js";
+			 fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+
+			function onLoad()
+			{
+				if (location.href.toLowerCase().indexOf("https://") !== -1)
+				{
+					window.top.location.href="http://yasminoku.tuxfamily.org/new/online/index_facebook.php";
+				}
+				else
+				{
+					location.href="http://yasminoku.tuxfamily.org/new/online/index_facebook.php";
+				}
+			}
+		</script>
+	</head>
+	<body onload="onLoad();">
+		<p>Please wait while you are being redirected to Yasminoku...</p>
+	</body>
+</html>

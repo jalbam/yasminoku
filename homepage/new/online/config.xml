@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "yasminoku"
+        versionCode = "100"
+        version     = "0.58a" >
+
+    <!-- versionCode is optional and Android only -->
+
+	<preference name="phonegap-version" value="3.6.3" />
+	
+    <name>Yasminoku</name>
+
+	<content src="index.html" />
+    <access origin="*" />
+	
+	<icon src="icon.png" />
+	<gap:splash src="splash.png" />
+	
+	<preference name="permissions" value="none"/>
+	
+    <description>
+        Yasminoku is a sudoku game, generator and solver created by Joan Alba Maldonado on 25th of July 2006 which has been now improved and adapted to mobile devices.
+    </description>
+
+    <author href="https://www.granvino.com" email="granvino@granvino.com">
+        Joan Alba Maldonado
+    </author>
+
+    <preference name="orientation" value="default" />        <!-- all: default means both landscape and portrait are enabled -->
+    <preference name="target-device" value="universal" />      <!-- all: possible values handset, tablet, or universal -->
+    <preference name="fullscreen" value="true" />           <!-- all: hides the status bar at the top of the screen -->
+    <preference name="prerendered-icon" value="true" />           <!-- ios: if icon is prerendered, iOS will not apply it's gloss to the app's icon on the user's home screen -->
+    <preference name="ios-statusbarstyle" value="black-opaque" />   <!-- ios: black-translucent will appear black because the PhoneGap webview doesn't go beneath the status bar -->
+    <preference name="detect-data-types" value="false" />           <!-- ios: controls whether data types (such as phone no. and dates) are automatically turned into links by the system -->
+    <preference name="exit-on-suspend" value="false" />          <!-- ios: if set to true, app will terminate when home button is pressed -->
+    <preference name="auto-hide-splash-screen" value="true" />           <!-- ios: if set to false, the splash screen must be hidden using a JavaScript API -->
+    <preference name="disable-cursor" value="false" />          <!-- blackberry: prevents a mouse-icon/cursor from being displayed on the app -->
+    <preference name="android-minSdkVersion" value="7" />              <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
+    <preference name="android-installLocation" value="auto" />           <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
+	<preference name="webviewbounce" value="false" /> <!-- Prevents rubber (elastic) scrolling on iOS -->
+	
+	<gap:plugin name="nl.x-services.plugins.insomnia" />
+	
+</widget>

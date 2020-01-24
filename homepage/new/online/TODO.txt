@@ -1,0 +1,29 @@
+*) Generar sudokus con una unica solucion siempre que sea posible.
+
+*) Accesskeys para cambiar opciones y que muestre un mensaje al cambiar la opcion. Quiza solo dejar activarlas cuando este visible el menu de opciones (pensarlo).
+
+*) Opcion para restaurar opciones por defecto.
+
+*) Poder elegir dificultad.
+
+*) Optimizar y limpiar codigo un poco.
+
+*) Mas idiomas.
+
+*) animacion del menu para que sea mas chula (por ejemplo, escalar para que sea enano y rote un poco)
+
+*) Pensar si poder usar temas (CSS o algo)
+
+*) Pensar si hacer que no aparezcan los botones hasta que el juego esté listo.
+
+!) Algo pasa con lo de mostrar o esconder el boton de "intentar solucionar" y los numeros introducidos.
+
+!) Al ir al enlace de Yasminoku en Tuxfamily y volver, el juego a veces se resizea mal!
+
+!) A veces no se ven los numeros del menu de seleccion de numeros en Chome al hacer click en una casilla
+
+!) En IE8, despues de seleccionar un numero, a veces pregunta si queremos salir del juego.
+
+!) En IE5, parece ser que cuando las casillas estan rotadas (porque son erroneas), desaparecen. Se debe jugar en el modo sin efectos.
+
+1) Opcion para mostrar solucion calculada permanentemente (que se muestre o esconda con un boton), no temporalmente. Activable al poner 0 segundos en mostrar_solucion_segundos. Guardar en opciones.

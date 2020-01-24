@@ -1,0 +1,10 @@
+//* poder poner numeros iniciales de 0 a 81 otra vez, i un boton para solucionar.. asi servira para solucionar sudokus. (kiza opcion de solucionar o algo asi, ademas de ver solucion)
+//(kreo) * al apretar un numero en el teklado del 1 al 9, kambiar la opcion selekcionada del menu. i si se pulsa el 0 eskoger la opcino de borrar ("x").
+//* hacer un setitimeout o algo para k salga i se vea el kargando.. en firefox i en explorer!!!!
+//* mensaje de kargando... al empezar el juego i al dibujar mapa (poniendolo en dibujar mapa ya es suficiente kiza).
+
+* (plantear) optimizar la opcion de intentar solucionar, kalkulando antes las posibilidades de kada kasilla i barajandolas (en lugar de barajar todos los numeros del 1 al 9).
+* hacer ke genere sudokus con solo una solucion... si no es posible, hacer ke solucione los numeros iniciales varias veces y luego komprobar si todas las soluciones son iguales (por estadistika, seria mas probable ke solo huviera una solucion si no enkontrara mas de una).
+* para saber kuantas soluciones tiene un sudoku, una vez se haia solucionado (si es ke se puede), koger ese sudoku solucionado i probar todas las kombinaciones posibles kambiando numeros en una kasilla, luego en la otra... siempre ke sean numeros posiubles i no el mismo k ia habia antes.
+
+* opcion de imprimir sudoku, siempre kon el fondo!!! si es kon un sistema visual k ahorre tinta i no el k usa el juego normalmente mejor!!! i kon una opcion para imprimir numeros iniciales solo o esos i tambien los k hemos puesto.

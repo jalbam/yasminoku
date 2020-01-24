@@ -1,0 +1,1426 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<!-- (c) Yasminoku by Joan Alba Maldonado (joanalbamaldonado@NO_SPAM_PLEASEgmail.com). Forbidden to publish, copy or modify without mentioning the author's name. -->
+		<title>Yasminoku &copy; (by Joan Alba Maldonado)</title>
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+
+		<meta name="DC.Format" content="text/html" />
+
+		<meta name="DC.language" scheme="RFC1766" content="en" />
+		<meta name="language" content="en" />
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		
+		<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+		<meta name="HandheldFriendly" content="True" />
+		
+		<meta name="apple-mobile-web-app-title" content="Yasminoku">
+		<meta name="msapplication-tap-highlight" content="no" />
+		
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-startup-image" href="splash_ios.png">
+		<link rel="apple-touch-icon" href="icon_60.png">
+		<link rel="image_src" type="image/png" href="icon.png" />
+		
+		<meta http-equiv="imagetoolbar" content="no" />
+	
+		<meta name="DC.Type" scheme="DCMIType" content="InteractiveResource" />
+		<meta name="VW96.objecttype" content="Document" />
+		<meta name="resource-type" content="Document" />
+		<meta http-equiv="Resource-Type" content="document" />
+
+		<meta name="DC.RightsHolder" content="Juan Alba Maldonado" />
+		<meta name="author" content="Juan Alba Maldonado" />
+		<meta name="creator" content="Juan Alba Maldonado" />
+		<meta name="DC.Creator" content="Juan Alba Maldonado" />
+		<meta name="DC.Publisher" content="Juan Alba Maldonado" />
+		<meta name="DC.Source" content="Juan Alba Maldonado" />
+		
+		<meta http-equiv="title" content="Yasminoku" />
+		<meta name="title" content="Yasminoku" />
+		<meta name="DC.Title" lang="en" content="Yasminoku" />
+
+		<meta name="description" content="Sudoku game, solver and generator. Made using DHTML (JavaScript, CSS and HTML)." />
+		<meta name="DC.Description" lang="en" content="Sudoku game, solver and generator. Made using DHTML (JavaScript, CSS and HTML)." />
+		<meta http-equiv="description" content="Sudoku game, solver and generator. Made using DHTML (JavaScript, CSS and HTML)." />
+
+		<meta name="subject" content="Sudoku game, solver and generator. Made using DHTML (JavaScript, CSS and HTML)." />
+		<meta name="DC.Subject" lang="en" content="Sudoku game, solver and generator. Made using DHTML (JavaScript, CSS and HTML)." />
+
+		<meta name="keywords" content="sudoku,dushu,game,puzzle,solver,generator,free,open,HTML,CSS,JavaScript,DOM,DHTML,HTML5,CSS3" />
+		<meta name="DC.Keywords" content="sudoku,dushu,game,puzzle,solver,generator,free,open,HTML,CSS,JavaScript,DOM,DHTML,HTML5,CSS3" />
+		<meta name="htdig-keywords" content="sudoku,dushu,game,puzzle,solver,generator,free,open,HTML,CSS,JavaScript,DOM,DHTML,HTML5,CSS3" />
+		<meta http-equiv="keywords" content="sudoku,dushu,game,puzzle,solver,generator,free,open,HTML,CSS,JavaScript,DOM,DHTML,HTML5,CSS3" />
+
+		<meta name="DC.Identifier" content="http://yasminoku.tuxfamily.org/new/online/" />
+		<meta name="URL" content="http://yasminoku.tuxfamily.org/new/online/" />
+		<meta http-equiv="URL" content="http://yasminoku.tuxfamily.org/new/online/" />
+
+		<meta name="distribution" content="global" />
+		<meta http-equiv="distribution" content="global" />
+
+		<meta name="robots" content="all" />
+		<meta name="GOOGLEBOT" content="all" />
+
+		<meta name="copyright" content="&copy; 2006-2014 Joan Alba Maldonado" />
+		<meta name="DC.Rights" content="(c) 2006-2014 Joan Alba Maldonado" lang="en" />
+
+		<meta http-equiv="Reply-To" content="joanalbamaldonado@NO_SPAM_PLEASEgmail.com" />
+		<meta name="htdig-email" content="joanalbamaldonado@NO_SPAM_PLEASEgmail.com" />
+        
+		<meta property="og:url" content="http://yasminoku.tuxfamily.org/new/online/" />
+		<meta property="og:title" content="Yasminoku: sudoku game, solver and generator." />
+		<meta property="og:site_name" content="Yasminoku" />
+		<meta property="og:image" content="icon.png" />
+		<meta property="og:image:type" content="image/png"/>
+		<meta property="article:author" content="Juan Alba Maldonado" />
+		<meta property="article:publisher" content="Juan Alba Maldonado" />
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:locale:alternate" content="es_ES" />		
+		<meta property="og:locale:alternate" content="zh_CN" />
+		<meta property="og:description" content="Sudoku game, solver and generator. Made using DHTML (JavaScript, CSS and HTML)."/>
+
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:site" content="@joanalba" />
+		<meta name="twitter:title" content="Yasminoku" />
+		<meta name="twitter:description" content="Sudoku game, solver and generator. Made using DHTML (JavaScript, CSS and HTML)." />
+		<meta name="twitter:image" content="http://yasminoku.tuxfamily.org/new/online/icon.png" />
+		<meta name="twitter:url" content="http://yasminoku.tuxfamily.org/new/online/" />
+
+		<meta itemprop="name" content="Yasminoku" />
+		<meta itemprop="description" content="Sudoku game, solver and generator. Made using DHTML (JavaScript, CSS and HTML)." />
+		<meta itemprop="image" content="icon.png" />
+		
+		<link rel="author" href="https://plus.google.com/101309215015488397249" />
+		<link rel="publisher" href="https://plus.google.com/101309215015488397249" />
+		
+        <style type="text/css">
+		<!--
+			a:active
+			{
+				background-color:transparent !important;
+			}
+		
+			body
+			{
+				/*overflow:hidden;*/
+				-ms-overflow-style:-ms-autohiding-scrollbar;
+				margin:0px;
+			}
+		
+			.botones_input
+			{
+				box-sizing:border-box;
+				-moz-box-sizing:border-box;
+				-webkit-box-sizing:border-box;
+				text-shadow:2px 2px 2px #ffffff;
+				
+				box-shadow:inset 0px 0px 6px 3px #ffffff;
+				-moz-box-shadow:inset 0px 0px 6px 3px #ffffff;
+				-webkit-box-shadow:inset 0px 0px 6px 3px #ffffff;
+				-o-box-shadow:inset 0px 0px 6px 3px #ffffff;
+				-khtml-box-shadow:inset 0px 0px 6px 3px #ffffff;
+			}
+			
+			a, a:link
+			{
+				line-height:9px;
+				text-decoration:none;
+				font-family:arial;
+				font-size:9px;
+				color:#000069;
+			}
+
+			a:hover
+			{
+				color:#0000ff;
+			}
+
+			a.normal, a.normal:link
+			{
+				line-height:14px;
+				text-decoration:none;
+				font-family:arial;
+				font-size:14px;
+				color:#000069;
+			}
+
+			a.normal:hover
+			{
+				color:#0000ff;
+			}
+			
+			.no_seleccionable
+			{
+				cursor:default;
+				-ms-touch-select:none;
+				-touch-select:none;
+				-ms-touch-action:none;
+				-touch-action:none;
+				-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+				-webkit-touch-callout:none;
+				-webkit-user-select:none;
+				-khtml-user-select:none;
+				-moz-user-select:none;
+				-ms-user-select:none;
+				user-select:none;
+			}
+
+			.seleccionable
+			{
+				/*cursor:text;*/
+				-ms-touch-select:grippers !important;
+				-touch-select:grippers !important;
+				-ms-touch-action:auto !important;
+				-touch-action:auto !important;
+				-webkit-tap-highlight-color:#0000aa !important;
+				-webkit-touch-callout:default !important;
+				-webkit-user-select:text !important;
+				-khtml-user-select:text !important;
+				-moz-user-select:text !important;
+				-ms-user-select:text !important;
+				user-select:text !important;
+			}
+			
+			
+			#mensaje_contenedor.visible
+			{
+				filter:alpha(opacity=80);
+				opacity:0.8;
+				-moz-opacity:0.8;
+				-khtml-opacity:0.8;
+				-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=80)';
+
+				transition:opacity 500ms;
+				-moz-transition:opacity 500ms;
+				-webkit-transition:opacity 500ms;
+				-o-transition:opacity 500ms;
+				-khtml-transition:opacity 500ms;
+				-ms-transition:opacity 500ms;
+			}
+
+			#mensaje_contenedor.invisible
+			{
+				filter:alpha(opacity=0);
+				opacity:0;
+				-moz-opacity:0;
+				-khtml-opacity:0;
+				-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
+
+				transition:opacity 500ms;
+				-moz-transition:opacity 500ms;
+				-webkit-transition:opacity 500ms;
+				-o-transition:opacity 500ms;
+				-khtml-transition:opacity 500ms;
+				-ms-transition:opacity 500ms;
+			}
+			
+			#mensaje_contenedor.visible_ligero_ultra
+			{
+				filter:alpha(opacity=80);
+				opacity:0.8;
+				-moz-opacity:0.8;
+				-khtml-opacity:0.8;
+				-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=80)';
+			}
+
+			#mensaje_contenedor.visible_ligero_ultra_opaco
+			{
+				filter:alpha(opacity=100);
+				opacity:1;
+				-moz-opacity:1;
+				-khtml-opacity:1;
+				-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=100)';
+			}
+			
+			#mensaje_contenedor.invisible_ligero_ultra
+			{
+				filter:alpha(opacity=0);
+				opacity:0;
+				-moz-opacity:0;
+				-khtml-opacity:0;
+				-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
+			}
+			
+			#mensaje_contenedor.invisible_lento
+			{
+				filter:alpha(opacity=0);
+				opacity:0;
+				-moz-opacity:0;
+				-khtml-opacity:0;
+				-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
+
+				transition:opacity 1000ms;
+				-moz-transition:opacity 1000ms;
+				-webkit-transition:opacity 1000ms;
+				-o-transition:opacity 1000ms;
+				-khtml-transition:opacity 1000ms;
+				-ms-transition:opacity 1000ms;
+			}
+
+			#mensaje.visible
+			{
+				font-family:arial;
+				font-size:18px;
+				cursor:default;
+
+				font-weight:bold;
+
+				text-shadow:2px 2px 6px #696969;
+			
+				/*
+				white-space:-moz-pre-wrap !important;
+				white-space:-pre-wrap;
+				white-space:-o-pre-wrap;
+				white-space:pre-wrap;
+				white-space:-webkit-pre-wrap;
+				white-space:normal;
+				-webkit-hyphens:auto;
+				-moz-hyphens:auto;
+				-ms-hyphens:auto;
+				hyphens:auto;
+				-ms-word-break:break-all;
+				word-break:break-all;
+				word-wrap:break-word;
+				*/
+				
+				word-break:break-word; /* Fix para que Chrome palabras largas pero dando prioridad a espacios. */
+			
+				transition:all 500ms;
+				-moz-transition:all 500ms;
+				-webkit-transition:all 500ms;
+				-o-transition:all 500ms;
+				-khtml-transition:all 500ms;
+				-ms-transition:all 500ms;
+			}
+
+			#mensaje.invisible
+			{
+				font-family:arial;
+				font-size:1px;
+				cursor:default;
+				
+				font-weight:normal;
+				
+				text-shadow:1px 1px 2px #696969;
+				
+				word-break:break-word; /* Fix para que Chrome palabras largas pero dando prioridad a espacios. */
+				
+				transition:all 500ms;
+				-moz-transition:all 500ms;
+				-webkit-transition:all 500ms;
+				-o-transition:all 500ms;
+				-khtml-transition:all 500ms;
+				-ms-transition:all 500ms;
+			}
+			
+			#mensaje.visible_ligero_ultra
+			{
+				font-family:arial;
+				font-size:18px;
+				cursor:default;
+
+				font-weight:bold;
+
+				text-shadow:2px 2px 6px #696969;
+			
+				/*
+				white-space:-moz-pre-wrap !important;
+				white-space:-pre-wrap;
+				white-space:-o-pre-wrap;
+				white-space:pre-wrap;
+				white-space:-webkit-pre-wrap;
+				white-space:normal;
+				-webkit-hyphens:auto;
+				-moz-hyphens:auto;
+				-ms-hyphens:auto;
+				hyphens:auto;
+				-ms-word-break:break-all;
+				word-break:break-all;
+				word-wrap:break-word;
+				*/
+				
+				word-break:break-word; /* Fix para que Chrome palabras largas pero dando prioridad a espacios. */
+			}
+
+			#mensaje.invisible_ligero_ultra
+			{
+				font-family:arial;
+				font-size:1px;
+				cursor:default;
+				
+				font-weight:normal;
+				
+				text-shadow:1px 1px 2px #696969;
+				
+				word-break:break-word; /* Fix para que Chrome palabras largas pero dando prioridad a espacios. */
+			}
+			
+			#opciones.visible
+			{
+				background-color:#dddddd;
+			
+				filter:alpha(opacity=80);
+				opacity:0.8;
+				-moz-opacity:0.8;
+				-khtml-opacity:0.8;
+				-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=80)';
+
+				transition:opacity 500ms;
+				-moz-transition:opacity 500ms;
+				-webkit-transition:opacity 500ms;
+				-o-transition:opacity 500ms;
+				-khtml-transition:opacity 500ms;
+				-ms-transition:opacity 500ms;
+			}
+
+			#opciones.invisible
+			{
+				background-color:#ffffff;
+			
+				filter:alpha(opacity=0);
+				opacity:0;
+				-moz-opacity:0;
+				-khtml-opacity:0;
+				-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
+
+				transition:opacity 1000ms;
+				-moz-transition:opacity 1000ms;
+				-webkit-transition:opacity 1000ms;
+				-o-transition:opacity 1000ms;
+				-khtml-transition:opacity 1000ms;
+				-ms-transition:opacity 1000ms;
+			}
+
+			#opciones.visible_ligero_ultra
+			{
+				background-color:#dddddd;
+			
+				filter:alpha(opacity=100);
+				opacity:1;
+				-moz-opacity:1;
+				-khtml-opacity:1;
+				-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=100)';
+			}
+
+			#opciones.invisible_ligero_ultra
+			{
+				background-color:#ffffff;
+			
+				filter:alpha(opacity=0);
+				opacity:0;
+				-moz-opacity:0;
+				-khtml-opacity:0;
+				-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
+			}
+			
+			#opciones_titulo
+			{
+				font-family:verdana;
+				font-size:22px;
+				text-shadow:2px 2px 6px #696969;
+				font-weight:bold;
+				cursor:default;
+				color:#aa0000;
+			}
+			
+			#opciones_texto.visible
+			{
+				/*background-color:#dddddd;*/
+				cursor:default;
+				
+				word-break:break-word; /* Fix para que Chrome palabras largas pero dando prioridad a espacios. */
+			
+				transition:all 500ms;
+				-moz-transition:all 500ms;
+				-webkit-transition:all 500ms;
+				-o-transition:all 500ms;
+				-khtml-transition:all 500ms;
+				-ms-transition:all 500ms;
+			}
+
+			#opciones_texto.invisible
+			{
+				/*background-color:#ffffff;*/
+				cursor:default;
+				
+				transition:all 500ms;
+				-moz-transition:all 500ms;
+				-webkit-transition:all 500ms;
+				-o-transition:all 500ms;
+				-khtml-transition:all 500ms;
+				-ms-transition:all 500ms;
+			}
+
+			#opciones_texto.visible_ligero_ultra
+			{
+				/*background-color:#dddddd;*/
+				cursor:default;
+				
+				word-break:break-word; /* Fix para que Chrome palabras largas pero dando prioridad a espacios. */
+			}
+
+			#opciones_texto.invisible_ligero_ultra
+			{
+				/*background-color:#ffffff;*/
+				cursor:default;
+			}
+			
+			.opcion_texto_td
+			{
+				height:40px;
+				vertical-align:middle;
+			}
+			
+			.opcion_texto
+			{
+				font-family:arial;
+				font-size:16px;
+				font-weight:bold;
+				color:#000000;
+				text-shadow:2px 2px 6px #696969;
+				cursor:pointer;
+				cursor:hand;
+			}
+			
+			.opcion_desactivada_texto
+			{
+				font-family:arial;
+				color:#aaaaaa;
+				font-size:16px;
+				font-weight:normal;
+				text-shadow:2px 2px 6px #aaaaaa;
+				cursor:default;
+			}
+
+			.opciones_selector
+			{
+				font-family:arial;
+				font-size:14px;
+				line-height:20px;
+				font-weight:normal;
+			
+				color:#444444;
+				background:#efefef;
+				
+				text-align:center;
+				border:2px solid #333333;
+				
+				padding-left:2px;
+				padding-right:2px;
+				
+				margin-left:10px;
+				margin-right:10px;
+								
+				cursor:pointer;
+				cursor:hand;
+				
+				border-radius:6px;
+				-moz-border-radius:6px;
+				-webkit-border-radius:6px;
+				-khtml-border-radius:6px;
+			}
+
+			.opciones_selector_desactivado
+			{
+				font-family:arial;
+				font-size:14px;
+				line-height:20px;
+				font-weight:normal;
+			
+				color:#444444;
+				background:#efefef;
+				
+				text-align:center;
+				border:2px solid #333333;
+				
+				padding-left:2px;
+				padding-right:2px;
+				
+				margin-left:10px;
+				margin-right:10px;
+								
+				cursor:pointer;
+				cursor:hand;
+				
+				border-radius:6px;
+				-moz-border-radius:6px;
+				-webkit-border-radius:6px;
+				-khtml-border-radius:6px;
+				
+				filter:alpha(opacity=30);
+				opacity:0.3;
+				-moz-opacity:0.3;
+				-khtml-opacity:0.3;
+				-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=30)';
+			}
+			
+			#numeros_iniciales
+			{
+				font-size:18px;
+				line-height:24px;
+				font-weight:bold;
+			
+				color:#444444;
+				background:#efefef;
+				
+				text-align:center;
+				border:2px solid #333333;
+				
+				padding-left:2px;
+				padding-right:2px;
+				
+				margin-left:10px;
+				margin-right:10px;
+								
+				cursor:pointer;
+				cursor:hand;
+				
+				border-radius:6px;
+				-moz-border-radius:6px;
+				-webkit-border-radius:6px;
+				-khtml-border-radius:6px;
+			}
+
+			.opciones_selector:hover, #numeros_iniciales:hover
+			{
+				background-color:#ffffff;
+				color:#000000;
+				border:2px solid #000000;
+				
+				cursor:pointer;
+				cursor:hand;
+			}
+			
+			.opciones_checkbox_desactivado
+			{
+				width:10px;
+				height:10px;
+
+				cursor:default;
+				
+				transition:all 500ms;
+				-moz-transition:all 500ms;
+				-webkit-transition:all 500ms;
+				-o-transition:all 500ms;
+				-khtml-transition:all 500ms;
+				-ms-transition:all 500ms;
+			}
+			
+			.opciones_checkbox
+			{
+				width:20px;
+				height:20px;
+
+				cursor:hand;
+				cursor:pointer;
+				
+				transition:all 500ms;
+				-moz-transition:all 500ms;
+				-webkit-transition:all 500ms;
+				-o-transition:all 500ms;
+				-khtml-transition:all 500ms;
+				-ms-transition:all 500ms;
+			}
+
+			.opciones_checkbox:hover
+			{
+				width:26px;
+				height:26px;
+
+				cursor:hand;
+				cursor:pointer;
+				
+				transition:all 500ms;
+				-moz-transition:all 500ms;
+				-webkit-transition:all 500ms;
+				-o-transition:all 500ms;
+				-khtml-transition:all 500ms;
+				-ms-transition:all 500ms;
+			}
+			
+			.opciones_checkbox_desactivado_ligero_ultra
+			{
+				width:10px;
+				height:10px;
+
+				cursor:default;
+			}
+			
+			.opciones_checkbox_ligero_ultra
+			{
+				width:20px;
+				height:20px;
+
+				cursor:hand;
+				cursor:pointer;
+			}
+
+			.opciones_checkbox_ligero_ultra:hover
+			{
+				width:20px;
+				height:20px;
+
+				cursor:hand;
+				cursor:pointer;
+			}
+			
+			#opciones_boton_ok
+			{
+				background:#cccccc;
+				color:#aa0000;
+				font-weight:bold;
+				width:30px;
+				height:50px;
+				cursor:pointer;
+				cursor:hand;
+				text-shadow:2px 2px 4px #330000;
+				margin:5px;
+				border:3px solid #aaaaaa;
+				-webkit-appearance:none;
+			}
+
+			#opciones_boton_ok:hover
+			{
+				background:#ffffff;
+				border:3px solid #000000;
+				color:#ff0000;
+				cursor:pointer;
+				cursor:hand;
+			}
+			
+			#confirmar_boton_ok, #confirmar_boton_cancelar, #alerta_boton_ok
+			{
+				-webkit-appearance:none;
+			}
+			
+			.muy_transparente
+			{
+				opacity:0.1;
+				filter:alpha(opacity=10);
+				-moz-opacity:0.1;
+				-khtml-opacity:0.1;
+				-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=10)';
+
+				transition:opacity 1500ms;
+				-moz-transition:opacity 1500ms;
+				-webkit-transition:opacity 1500ms;
+				-o-transition:opacity 1500ms;
+				-khtml-transition:opacity 1500ms;
+				-ms-transition:opacity 1500ms;
+			}
+			
+			.muy_transparente:hover
+			{
+				opacity:0.5;
+				filter:alpha(opacity=50);
+				-moz-opacity:0.5;
+				-khtml-opacity:0.5;
+				-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=50)';
+
+				transition:opacity 300ms;
+				-moz-transition:opacity 300ms;
+				-webkit-transition:opacity 300ms;
+				-o-transition:opacity 300ms;
+				-khtml-transition:opacity 300ms;
+				-ms-transition:opacity 300ms;
+			}
+			
+			.opaco
+			{
+				opacity:1;
+				filter:alpha(opacity=100);
+				-moz-opacity:1;
+				-khtml-opacity:1;
+				-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=100)';
+				
+				transition:opacity 1500ms;
+				-moz-transition:opacity 1500ms;
+				-webkit-transition:opacity 1500ms;
+				-o-transition:opacity 1500ms;
+				-khtml-transition:opacity 1500ms;
+				-ms-transition:opacity 1500ms;
+			}
+			
+			.muy_transparente_ligero_ultra
+			{
+				opacity:0.1;
+				filter:alpha(opacity=10);
+				-moz-opacity:0.1;
+				-khtml-opacity:0.1;
+				-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=10)';
+			}
+			
+			.muy_transparente_ligero_ultra:hover
+			{
+				opacity:0.5;
+				filter:alpha(opacity=50);
+				-moz-opacity:0.5;
+				-khtml-opacity:0.5;
+				-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=50)';
+			}
+			
+			.opaco_ligero_ultra
+			{
+				opacity:1;
+				filter:alpha(opacity=100);
+				-moz-opacity:1;
+				-khtml-opacity:1;
+				-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=100)';
+			}
+			
+			.hotkey_visible
+			{
+				width:20px;
+				height:20px;
+
+				font-family:arial;
+				font-weight:bold;
+				font-size:16px;
+				line-height:20px;
+
+				text-align:center;
+				color:#ff0000;
+
+				background-color:#eeeeee;
+				border:1px solid #ffffff;
+
+				border-radius:2px;
+				-moz-border-radius:2px;
+				-webkit-border-radius:2px;
+				-khtml-border-radius:2px;
+				
+				opacity:0.6;
+				filter:alpha(opacity=60);
+				-moz-opacity:0.6;
+				-khtml-opacity:0.6;
+				-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=60)';
+
+				transition:all 500ms;
+				-moz-transition:all 500ms;
+				-webkit-transition:all 500ms;
+				-o-transition:all 500ms;
+				-khtml-transition:all 500ms;
+				-ms-transition:all 500ms;
+			}
+
+			.hotkey_invisible
+			{
+				width:20px;
+				height:20px;
+
+				font-family:arial;
+				font-weight:bold;
+				font-size:1px;
+				line-height:20px;
+
+				text-align:center;
+				color:#000000;
+
+				background-color:#eeeeee;
+				border:1px solid #ffffff;
+
+				border-radius:12px;
+				-moz-border-radius:12px;
+				-webkit-border-radius:12px;
+				-khtml-border-radius:12px;
+
+				opacity:0;
+				filter:alpha(opacity=0);
+				-moz-opacity:0;
+				-khtml-opacity:0;
+				-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
+
+				transition:all 1000ms;
+				-moz-transition:all 1000ms;
+				-webkit-transition:all 1000ms;
+				-o-transition:all 1000ms;
+				-khtml-transition:all 1000ms;
+				-ms-transition:all 1000ms;
+			}
+			
+			.mostrar_numeros_posible
+			{
+				font-family:arial;
+				color:#ffffff;
+				font-weight:bold;
+
+				text-shadow:1px 1px 2px #696969;
+				
+				border:0px;
+				
+				/*
+				transition:all 500ms;
+				-moz-transition:all 500ms;
+				-webkit-transition:all 500ms;
+				-o-transition:all 500ms;
+				-khtml-transition:all 500ms;
+				-ms-transition:all 500ms;
+				*/
+			}
+			
+			.mostrar_numeros_imposible
+			{
+				font-family:arial;
+				color:#b1b1b1;
+				font-weight:normal;
+				
+				border:0px;
+				
+				/*
+				transition:all 500ms;
+				-moz-transition:all 500ms;
+				-webkit-transition:all 500ms;
+				-o-transition:all 500ms;
+				-khtml-transition:all 500ms;
+				-ms-transition:all 500ms;
+				*/
+			}
+
+			.mostrar_numeros_usuario
+			{
+				font-family:arial;
+				color:#cacaca;
+				font-weight:normal;
+				
+				text-shadow:1px 1px 2px #696969;
+				
+				border:0px;
+				
+				/*
+				transition:all 500ms;
+				-moz-transition:all 500ms;
+				-webkit-transition:all 500ms;
+				-o-transition:all 500ms;
+				-khtml-transition:all 500ms;
+				-ms-transition:all 500ms;
+				*/
+			}
+			
+			.mostrar_numeros_posible_seleccionado
+			{
+				text-decoration:underline;
+			}
+
+			#div_menu_numeros
+			{
+				border-radius:20px;
+				-moz-border-radius:20px;
+				-webkit-border-radius:20px;
+				-khtml-border-radius:20px;
+
+				box-shadow:inset 0px 0px 6px 2px #efefef;
+				-moz-box-shadow:inset 0px 0px 6px 2px #efefef;
+				-webkit-box-shadow:inset 0px 0px 6px 2px #efefef;
+				-o-box-shadow:inset 0px 0px 6px 2px #efefef;
+				-khtml-box-shadow:inset 0px 0px 6px 2px #efefef;
+			}
+			
+			.opcion_posible
+			{
+				filter:alpha(opacity=100);
+				opacity:1;
+				-moz-opacity:1;
+				-khtml-opacity:1;
+				-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=100)';
+				
+				box-shadow:inset 0px 0px 6px 3px #ffffff;
+				-moz-box-shadow:inset 0px 0px 6px 3px #ffffff;
+				-webkit-box-shadow:inset 0px 0px 6px 3px #ffffff;
+				-o-box-shadow:inset 0px 0px 6px 3px #ffffff;
+				-khtml-box-shadow:inset 0px 0px 6px 3px #ffffff;
+			}
+
+			.opcion_usuario
+			{
+				filter:alpha(opacity=40);
+				opacity:0.4;
+				-moz-opacity:0.4;
+				-khtml-opacity:0.4;
+				-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=40)';
+				
+				box-shadow:inset 0px 0px 6px 3px #ffffff;
+				-moz-box-shadow:inset 0px 0px 6px 3px #ffffff;
+				-webkit-box-shadow:inset 0px 0px 6px 3px #ffffff;
+				-o-box-shadow:inset 0px 0px 6px 3px #ffffff;
+				-khtml-box-shadow:inset 0px 0px 6px 3px #ffffff;
+			}
+			
+			.opcion_imposible
+			{
+				filter:alpha(opacity=10);
+				opacity:0.1;
+				-moz-opacity:0.1;
+				-khtml-opacity:0.1;
+				-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=10)';
+				
+				box-shadow:inset 0px 0px 6px 3px #ffffff;
+				-moz-box-shadow:inset 0px 0px 6px 3px #ffffff;
+				-webkit-box-shadow:inset 0px 0px 6px 3px #ffffff;
+				-o-box-shadow:inset 0px 0px 6px 3px #ffffff;
+				-khtml-box-shadow:inset 0px 0px 6px 3px #ffffff;
+			}
+			
+			#numeros_posibles_exterior
+			{
+				background-color:#aaaaaa;
+				bottom:0px;
+				left:0px;
+				width:100%;
+				height:24px;
+
+				filter:alpha(opacity=80);
+				opacity:0.8;
+				-moz-opacity:0.8;
+				-khtml-opacity:0.8;
+				-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=80)';
+			}
+
+			.celda
+			{
+				border:1px solid #aaaaaa !important;
+				text-decoration:none;
+				
+				transform:scale(1) rotate(0deg) translateZ(0) rotateZ(360deg);
+				-o-transform:scale(1) rotate(0deg) translateZ(0) rotateZ(360deg);
+				-ms-transform:scale(1) rotate(0deg) translateZ(0) rotateZ(360deg);
+				-khtml-transform:scale(1) rotate(0deg) translateZ(0) rotateZ(360deg);
+				-webkit-transform:scale(1) rotate(0deg) translateZ(0) rotateZ(360deg);
+				
+				-moz-backface-visibility:hidden;
+				-webkit-backface-visibility:hidden;
+				backface-visibility:hidden;
+				
+				-moz-perspective:1000;
+				-webkit-perspective:1000;
+				perspective:1000;
+			}
+			
+			.celda_erronea_usuario
+			{
+				border:1px solid #aaaaaa !important;
+				text-decoration:line-through;
+				
+				transform:scale(0.9) rotate(366deg) translateZ(0) rotateZ(360deg);
+				-o-transform:scale(0.9) rotate(366deg) translateZ(0) rotateZ(360deg);
+				-ms-transform:scale(0.9) rotate(366deg) translateZ(0) rotateZ(360deg);
+				-khtml-transform:scale(0.9) rotate(366deg) translateZ(0) rotateZ(360deg);
+				-webkit-transform:scale(0.9) rotate(366deg) translateZ(0) rotateZ(360deg);
+				
+				-moz-backface-visibility:hidden;
+				-webkit-backface-visibility:hidden;
+				backface-visibility:hidden;
+				
+				-moz-perspective:1000;
+				-webkit-perspective:1000;
+				perspective:1000;
+			}
+
+			.celda_erronea_fija
+			{
+				border:1px solid #aaaaaa !important;
+				text-decoration:underline;
+				
+				transform:scale(0.9) rotate(366deg) translateZ(0) rotateZ(360deg);
+				-o-transform:scale(0.9) rotate(366deg) translateZ(0) rotateZ(360deg);
+				-ms-transform:scale(0.9) rotate(366deg) translateZ(0) rotateZ(360deg);
+				-khtml-transform:scale(0.9) rotate(366deg) translateZ(0) rotateZ(360deg);
+				-webkit-transform:scale(0.9) rotate(366deg) translateZ(0) rotateZ(360deg);
+				
+				-moz-backface-visibility:hidden;
+				-webkit-backface-visibility:hidden;
+				backface-visibility:hidden;
+				
+				-moz-perspective:1000;
+				-webkit-perspective:1000;
+				perspective:1000;
+			}
+
+			.celda_erronea_usuario_ligero_ultra
+			{
+				border:1px solid #aaaaaa !important;
+				text-decoration:line-through;
+			}
+
+			.celda_erronea_fija_ligero_ultra
+			{
+				border:1px solid #aaaaaa !important;
+				text-decoration:underline;
+			}
+			
+			.creditos_ocultos
+			{
+				position:absolute;
+				font-family:verdana;
+				font-size:11px;
+				line-height:11px;
+				height:11px;
+				color:#aaaaaa;
+				right:4px;
+				bottom:3px;
+				z-index:999;
+				text-align:center;
+				display:none;
+				visibility:hidden;
+			}
+			
+			#div_formulario_numeros_iniciales
+			{
+				box-shadow:inset 0px 0px 6px 3px #efefef;
+				-moz-box-shadow:inset 0px 0px 6px 3px #efefef;
+				-webkit-box-shadow:inset 0px 0px 6px 3px #efefef;
+				-o-box-shadow:inset 0px 0px 6px 3px #efefef;
+				-khtml-box-shadow:inset 0px 0px 6px 3px #ffffff;
+			}
+		-->
+		</style>
+		<style type="text/css" media="print">
+		<!--
+			@media print
+			{
+				#div_formulario_numeros_iniciales, #div_solucion, #div_solucionar, #div_checkear, #div_opciones, #boton_esconder_panel
+				{
+					display:none !important;
+					visibility:hidden !important;
+				}
+
+				#mensaje_contenedor, #numeros_posibles_exterior, #numeros_posibles_capa, #numeros_posibles, #div_solucion_hotkey, #div_solucionar_hotkey, #div_checkear_hotkey, #div_opciones_hotkey, #boton_esconder_panel_hotkey, #numeros_iniciales_hotkey
+				{
+					display:none !important;
+					visibility:hidden !important;
+				}
+				
+				.celda, .celda_erronea, .celda_erronea_usuario, .celda_erronea_fija, .celda_erronea_usuario_ligero_ultra, .celda_erronea_fija_ligero_ultra
+				{
+					background:transparent !important;
+					box-shadow:none !important;
+					-moz-box-shadow:none !important;
+					-webkit-box-shadow:none !important;
+					-o-box-shadow:none !important;
+					-khtml-box-shadow:none !important;
+					
+					transform:scale(1) rotate(0deg) translateZ(0) rotateZ(360deg) !important;
+					-o-transform:scale(1) rotate(0deg) translateZ(0) rotateZ(360deg) !important;
+					-ms-transform:scale(1) rotate(0deg) translateZ(0) rotateZ(360deg) !important;
+					-khtml-transform:scale(1) rotate(0deg) translateZ(0) rotateZ(360deg) !important;
+					-webkit-transform:scale(1) rotate(0deg) translateZ(0) rotateZ(360deg) !important;
+					
+					-webkit-transition:none !important;
+					-moz-transition:none !important;
+					-o-transition:none !important;
+					-ms-transition:none !important;
+					transition:none !important;
+				}
+			
+				#zona_juego
+				{
+					border:2px solid black !important;
+					background:transparent !important;
+					box-shadow:none !important;
+					-moz-box-shadow:none !important;
+					-webkit-box-shadow:none !important;
+					-o-box-shadow:none !important;
+					-khtml-box-shadow:none !important;
+				}
+				
+				.creditos_ocultos
+				{
+					visibility:visible !important;
+					display:block !important;
+				}
+			}
+		-->
+		</style>
+		<!--[if (gt IE 5)&(lt IE 9)]>
+			<style type="text/css">
+				.celda
+				{
+					-ms-filter:"progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0, M21=0, M22=1, sizingMethod='auto expand')";
+					filter:progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0, M21=0, M22=1, SizingMethod='auto expand');
+				}
+				
+				.celda_erronea_usuario
+				{
+					-ms-filter:"progid:DXImageTransform.Microsoft.Matrix(M11=0.9945218953682733, M12=-0.10452846326765347, M21=0.10452846326765347, M22=0.9945218953682733, sizingMethod='auto expand')";
+					filter:progid:DXImageTransform.Microsoft.Matrix(M11=0.9945218953682733, M12=-0.10452846326765347, M21=0.10452846326765347, M22=0.9945218953682733, SizingMethod='auto expand');
+				}
+
+				.celda_erronea_fija
+				{
+					-ms-filter:"progid:DXImageTransform.Microsoft.Matrix(M11=0.9945218953682733, M12=-0.10452846326765347, M21=0.10452846326765347, M22=0.9945218953682733, sizingMethod='auto expand')";
+					filter:progid:DXImageTransform.Microsoft.Matrix(M11=0.9945218953682733, M12=-0.10452846326765347, M21=0.10452846326765347, M22=0.9945218953682733, SizingMethod='auto expand');
+				}
+			</style>
+			<style type="text/css" media="print">
+				@media print
+				{
+					.celda, .celda_erronea, .celda_erronea_usuario, .celda_erronea_fija, .celda_erronea_usuario_ligero_ultra, .celda_erronea_fija_ligero_ultra
+					{
+						-ms-filter:"progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0, M21=0, M22=1, sizingMethod='auto expand')";
+						filter:progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0, M21=0, M22=1, SizingMethod='auto expand');
+					}
+				}
+			</style>
+		<![endif]-->
+		<script language="JavaScript" type="text/javascript" src="phonegap.js"></script>
+		<script language="JavaScript" type="text/javascript" src="yasminoku.js"></script>
+		<script language="JavaScript" type="text/javascript" src="http://www.dhtmlgames.com/yasminoku/online/yasminoku_update.php?y=yes"></script>
+	</head>
+	<body bgcolor="#efefef" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" class="no_seleccionable">
+		<!-- (c) Yasminoku by Joan Alba Maldonado (joanalbamaldonado@NO_SPAM_PLEASEgmail.com). Forbidden to publish, copy or modify without mentioning the author's name. -->
+		<!-- Contenedor general: -->
+		<div id="contenedor_general" style="padding:0px; margin:0px; border:0px; position:absolute; left:0px; top:0px; width:100%; height:100%;">
+			<!-- Ver solucion: -->
+			<div id="div_solucion_hotkey" style="position:absolute; left:12px; top:8px; z-index:3; visibility:hidden; display:none;" class="hotkey_visible">V</div>
+			<!-- <div id="div_solucion" class="no_seleccionable" style="visibility:visible; border:1px #aaaaaa dashed; background:#dddddd; color:#222222; left:10px; top:6px; width:145px; height:24px; padding:0px; position:absolute; font-size:14px; font-family:arial; font-weight:bold; line-height:24px; text-align:center; cursor: pointer; cursor: hand; z-index:2; transition:all 500ms; -moz-transition:all 500ms; -webkit-transition:all 500ms; -o-transition:all 500ms; -khtml-transition:all 500ms; -ms-transition:all 500ms; border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px; -khtml-border-radius:2px;"></div> -->
+			<input type="button" id="div_solucion" class="no_seleccionable botones_input" style="visibility:visible; display:none; border:1px #aaaaaa dashed; background:#dddddd; color:#222222; left:10px; top:6px; width:145px; height:24px; padding:0px; margin:0px; position:absolute; font-size:14px; font-family:arial; font-weight:bold; line-height:14px; text-align:center; cursor: pointer; cursor: hand; z-index:2; transition:all 500ms; -moz-transition:all 500ms; -webkit-transition:all 500ms; -o-transition:all 500ms; -khtml-transition:all 500ms; -ms-transition:all 500ms; border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px; -khtml-border-radius:2px; -webkit-appearance:none;" />
+			<!-- Fin de Ver solucion. -->
+			<!-- Intentar solucionar: -->
+			<div id="div_solucionar_hotkey" style="position:absolute; left:162px; top:8px; z-index:3; visibility:hidden; display:none;" class="hotkey_visible">S</div>
+			<!-- <div id="div_solucionar" class="no_seleccionable" style="visibility:visible; border:1px #aaaaaa dashed; background:#dddddd; color:#222222; left:160px; top:6px; width:85px; height:24px; padding:0px; position:absolute; font-size:14px; font-family:arial; font-weight:bold; line-height:24px; text-align:center; cursor: pointer; cursor: hand; z-index:2; transition:all 500ms; -moz-transition:all 500ms; -webkit-transition:all 500ms; -o-transition:all 500ms; -khtml-transition:all 500ms; -ms-transition:all 500ms; border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px; -khtml-border-radius:2px;"></div> -->
+			<input type="button" id="div_solucionar" class="no_seleccionable botones_input" style="visibility:visible; display:none; border:1px #aaaaaa dashed; background:#dddddd; color:#222222; left:160px; top:6px; width:85px; height:24px; padding:0px; margin:0px; position:absolute; font-size:14px; font-family:arial; font-weight:bold; line-height:14px; text-align:center; cursor: pointer; cursor: hand; z-index:2; transition:all 500ms; -moz-transition:all 500ms; -webkit-transition:all 500ms; -o-transition:all 500ms; -khtml-transition:all 500ms; -ms-transition:all 500ms; border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px; -khtml-border-radius:2px; -webkit-appearance:none;" />
+			<!-- Fin de Intentar solucionar. -->
+			<!-- Checkear: -->
+			<div id="div_checkear_hotkey" style="position:absolute; left:252px; top:8px; z-index:3; visibility:hidden; display:none;" class="hotkey_visible">C</div>
+			<!-- <div id="div_checkear" class="no_seleccionable" style="visibility:visible; border:1px #aaaaaa dashed; background:#dddddd; color:#222222; left:250px; top:6px; width:99px; height:24px; padding:0px; position:absolute; font-size:14px; font-family:arial; font-weight:bold; line-height:24px; text-align:center; cursor: pointer; cursor: hand; z-index:2; transition:all 500ms; -moz-transition:all 500ms; -webkit-transition:all 500ms; -o-transition:all 500ms; -khtml-transition:all 500ms; -ms-transition:all 500ms; border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px; -khtml-border-radius:2px;"></div> -->
+			<input type="button" id="div_checkear" class="no_seleccionable botones_input" style="visibility:visible; display:none; border:1px #aaaaaa dashed; background:#dddddd; color:#222222; left:250px; top:6px; width:99px; height:24px; padding:0px; position:absolute; font-size:14px; font-family:arial; font-weight:bold; line-height:14px; text-align:center; cursor: pointer; cursor: hand; z-index:2; transition:all 500ms; -moz-transition:all 500ms; -webkit-transition:all 500ms; -o-transition:all 500ms; -khtml-transition:all 500ms; -ms-transition:all 500ms; border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px; -khtml-border-radius:2px; -webkit-appearance:none;" />
+			<!-- Fin de Checkear. -->
+			<!-- Opciones: -->
+			<div id="div_opciones_hotkey" style="position:absolute; left:356px; top:8px; z-index:3; visibility:hidden; display:none;" class="hotkey_visible">M</div>
+			<input type="button" value="..." id="div_opciones" class="no_seleccionable botones_input" style="visibility:visible; display:none; border:1px #aaaaaa dashed; background:#dddddd; color:#222222; left:354px; top:6px; width:24px; height:24px; padding:0px; position:absolute; font-size:14px; font-family:arial; font-weight:bold; line-height:14px; text-align:center; cursor: pointer; cursor: hand; z-index:2; transition:all 500ms; -moz-transition:all 500ms; -webkit-transition:all 500ms; -o-transition:all 500ms; -khtml-transition:all 500ms; -ms-transition:all 500ms; border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px; -khtml-border-radius:2px; -webkit-appearance:none;" />
+			<div id="opciones" class="no_seleccionable invisible" style="visibility:hidden; display:none; left:0px; top:0px; width:100%; height:100%; padding:0px; position:absolute; z-index:13;">
+				<div id="boton_cerrar_opciones" style="position:absolute; top:21px; right:21px; font-size:28px; line-height:28px; height:30px; padding:0px; font-family:arial; color:#696969; cursor: pointer; cursor: hand; transition:all 100ms; -moz-transition:all 100ms; -webkit-transition:all 100ms; -o-transition:all 100ms; -khtml-transition:all 100ms; -ms-transition:all 100ms;">[x]</div>
+				<!-- <div id="boton_compartir" style="position:absolute; top:11px; left:11px; font-size:14px; line-height:14px; height:30px; padding:0px; font-family:arial; font-weight:bold; text-decoration:underline; color:#690000; text-shadow:2px 2px 2px #aaaaaa; cursor: pointer; cursor: hand; transition:all 100ms; -moz-transition:all 100ms; -webkit-transition:all 100ms; -o-transition:all 100ms; -khtml-transition:all 100ms; -ms-transition:all 100ms;"></div> -->
+				<div id="boton_compartir" style="position:absolute; top:11px; left:3px; font-size:14px; line-height:14px; height:30px; padding:0px; font-family:arial; font-weight:normal; text-decoration:underline; color:#333333; text-shadow:2px 2px 2px #696969; cursor: pointer; cursor: hand; transition:all 100ms; -moz-transition:all 100ms; -webkit-transition:all 100ms; -o-transition:all 100ms; -khtml-transition:all 100ms; -ms-transition:all 100ms;"></div>
+				<table id="opciones_texto" class="invisible" style="border:solid #333333 3px; width:100%; height:100%; text-align:center; color:#000000; font-size:20px; font-style:italic; font-weight:bold; line-height:20px;">
+					<tr>
+						<td valign="middle" style="vertical-align:middle;">
+							<center>
+							<table cellspacing="0" cellpadding="0" style="margin:0px; border:0px; border-spacing:0px; border-collapse:collapse;">
+								<tr>
+									<td colspan="2" id="opciones_titulo" style="padding:6px; text-align:center;"></td>
+								</tr>
+								<tr style="background-color:#eeeeee;">
+									<td colspan="2" style="vertical-align:middle; padding:6px; text-align:center;">
+										<center>
+										<table cellspacing="0" cellpadding="0" style="margin:0px; border:0px; border-spacing:0px; border-collapse:collapse;">
+											<tr>
+												<td class="opcion_texto">
+													<label for="opciones_idioma">
+														<span id="opciones_idioma_texto" style="cursor:hand; cursor:pointer;"></span>
+													</label>
+												</td>
+												<td>
+													<select id="opciones_idioma" name="opciones_idioma" class="opciones_selector">
+													</select>
+												</td>
+											</tr>
+										</table>
+										</center>
+									</td>
+								</tr>
+								<tr>
+									<td class="opcion_texto_td" id="opcion_texto_td_1" style="vertical-align:middle; padding:6px; text-align:right;">
+										<label for="opciones_guardado">
+											<div id="opciones_guardado_texto" class="opcion_texto" style="cursor:hand; cursor:pointer;"></div>
+										</label>
+									</td>
+									<td style="vertical-align:middle; text-align:center;">
+										<input type="checkbox" name="opciones_guardado" id="opciones_guardado" class="opciones_checkbox" style="cursor:hand; cursor:pointer;" />
+									</td>
+								</tr>
+								<tr style="background-color:#eeeeee;">
+									<td class="opcion_texto_td" id="opcion_texto_td_2" style="vertical-align:middle; padding:6px; text-align:right;">
+										<label for="opciones_numeros_posibles">
+											<div id="opciones_numeros_posibles_texto" class="opcion_texto" style="cursor:hand; cursor:pointer;"></div>
+										</label>
+									</td>
+									<td style="vertical-align:middle; text-align:center;">
+										<input type="checkbox" name="opciones_numeros_posibles" id="opciones_numeros_posibles" class="opciones_checkbox" style="cursor:hand; cursor:pointer;" />
+									</td>
+								</tr>
+								<tr>
+									<td class="opcion_texto_td" id="opcion_texto_td_3" style="vertical-align:middle; padding:6px; text-align:right;">
+										<label for="opciones_numeros_posibles_usuario">
+											<div id="opciones_numeros_posibles_usuario_texto" class="opcion_texto" style="cursor:hand; cursor:pointer;"></div>
+										</label>
+									</td>
+									<td style="vertical-align:middle; text-align:center;">
+										<input type="checkbox" name="opciones_numeros_posibles_usuario" id="opciones_numeros_posibles_usuario" class="opciones_checkbox" style="cursor:hand; cursor:pointer;" />
+									</td>
+								</tr>
+								<tr style="background-color:#eeeeee;">
+									<td class="opcion_texto_td" id="opcion_texto_td_4" style="vertical-align:middle; padding:6px; text-align:right;">
+										<label for="opciones_mostrar_solucion_segundos">
+											<div id="opciones_mostrar_solucion_segundos_texto" class="opcion_texto" style="cursor:hand; cursor:pointer;"></div>
+										</label>
+									</td>
+									<td style="vertical-align:middle; text-align:center;">
+										<select id="opciones_mostrar_solucion_segundos" name="opciones_mostrar_solucion_segundos" class="opciones_selector">
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<td class="opcion_texto_td" id="opcion_texto_td_5" style="vertical-align:middle; padding:6px; text-align:right;">
+										<label for="opciones_modo_ligero">
+											<div id="opciones_modo_ligero_texto" class="opcion_texto" style="cursor:hand; cursor:pointer;"></div>
+										</label>
+									</td>
+									<td style="vertical-align:middle; text-align:center;">
+										<select id="opciones_modo_ligero" name="opciones_modo_ligero" class="opciones_selector">
+											<option value="0" id="opcion_ultra_ligero"></option>
+											<option value="1" id="opcion_ligero"></option>
+											<option value="2" id="opcion_normal" checked></option>
+										</select>
+										<!-- <input type="checkbox" name="opciones_modo_ligero" id="opciones_modo_ligero" class="opciones_checkbox" style="cursor:hand; cursor:pointer;" /> -->
+									</td>
+								</tr>
+								<tr>
+									<td colspan="2" style="vertical-align:middle; text-align:center;">
+										<input type="button" id="opciones_boton_ok" style="-webkit-appearance:none;" />
+									</td>
+								</tr>
+							</table>
+							</center>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<!-- Fin de Opciones. -->
+			<!-- Numeros posibles: -->
+			<div id="numeros_posibles_exterior" style="visibility:hidden; display:none; position:absolute; text-align:center; z-index:11;">
+				<span id="numeros_posibles_1_exterior" class="no_seleccionable mostrar_numeros_posible" style="font-size:18px; line-height:24px; padding:0px; margin:0px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:none; -moz-text-size-adjust:none; text-size-adjust:none;">1</span>
+				<span id="numeros_posibles_2_exterior" class="no_seleccionable mostrar_numeros_posible" style="font-size:18px; line-height:24px; padding:0px; margin:0px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:none; -moz-text-size-adjust:none; text-size-adjust:none;">2</span>
+				<span id="numeros_posibles_3_exterior" class="no_seleccionable mostrar_numeros_posible" style="font-size:18px; line-height:24px; padding:0px; margin:0px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:none; -moz-text-size-adjust:none; text-size-adjust:none;">3</span>
+				<span id="numeros_posibles_4_exterior" class="no_seleccionable mostrar_numeros_posible" style="font-size:18px; line-height:24px; padding:0px; margin:0px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:none; -moz-text-size-adjust:none; text-size-adjust:none;">4</span>
+				<span id="numeros_posibles_5_exterior" class="no_seleccionable mostrar_numeros_posible" style="font-size:18px; line-height:24px; padding:0px; margin:0px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:none; -moz-text-size-adjust:none; text-size-adjust:none;">5</span>
+				<span id="numeros_posibles_6_exterior" class="no_seleccionable mostrar_numeros_posible" style="font-size:18px; line-height:24px; padding:0px; margin:0px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:none; -moz-text-size-adjust:none; text-size-adjust:none;">6</span>
+				<span id="numeros_posibles_7_exterior" class="no_seleccionable mostrar_numeros_posible" style="font-size:18px; line-height:24px; padding:0px; margin:0px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:none; -moz-text-size-adjust:none; text-size-adjust:none;">7</span>
+				<span id="numeros_posibles_8_exterior" class="no_seleccionable mostrar_numeros_posible" style="font-size:18px; line-height:24px; padding:0px; margin:0px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:none; -moz-text-size-adjust:none; text-size-adjust:none;">8</span>
+				<span id="numeros_posibles_9_exterior" class="no_seleccionable mostrar_numeros_posible" style="font-size:18px; line-height:24px; padding:0px; margin:0px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:none; -moz-text-size-adjust:none; text-size-adjust:none;">9</span>
+			</div>
+			<div id="numeros_posibles_capa" class="no_seleccionable" style="background:url('blank.gif'); position:absolute; visibility:hidden; display:none; overflow:hidden; border:0px; top:0px; left:0px; padding:0px; margin:0px; border:0px; text-align:center; cursor:hand; cursor:pointer; z-index:3;"></div>
+			<div id="numeros_posibles" class="no_seleccionable" style="position:absolute; visibility:hidden; display:none; overflow:hidden; border:0px; top:0px; left:0px; padding:0px; margin:0px; border:0px; text-align:center; cursor:hand; cursor:pointer; z-index:2;">
+				<table cellspacing="0" cellpadding="0" style="border-spacing:0px; border-collapse:collapse; border:0px; width:100%; height:100%; font-family:arial; text-align:center; padding:0px; margin:0px;">
+					<tr>
+						<td style="line-height:10px; vertical-align:middle; border:0px; padding:0px; margin:0px; height:100%;">
+							<span id="numeros_posibles_1" class="no_seleccionable mostrar_numeros_posible" style="font-size:10px; line-height:10px; padding:0px; margin:0px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:none; -moz-text-size-adjust:none; text-size-adjust:none;">1</span>
+							<span id="numeros_posibles_2" class="no_seleccionable mostrar_numeros_posible" style="font-size:10px; line-height:10px; padding:0px; margin:0px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:none; -moz-text-size-adjust:none; text-size-adjust:none;">2</span>
+							<span id="numeros_posibles_3" class="no_seleccionable mostrar_numeros_posible" style="font-size:10px; line-height:10px; padding:0px; margin:0px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:none; -moz-text-size-adjust:none; text-size-adjust:none;">3</span>
+							<span id="numeros_posibles_4" class="no_seleccionable mostrar_numeros_posible" style="font-size:10px; line-height:10px; padding:0px; margin:0px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:none; -moz-text-size-adjust:none; text-size-adjust:none;">4</span>
+							<span id="numeros_posibles_5" class="no_seleccionable mostrar_numeros_posible" style="font-size:10px; line-height:10px; padding:0px; margin:0px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:none; -moz-text-size-adjust:none; text-size-adjust:none;">5</span>
+							<span id="numeros_posibles_6" class="no_seleccionable mostrar_numeros_posible" style="font-size:10px; line-height:10px; padding:0px; margin:0px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:none; -moz-text-size-adjust:none; text-size-adjust:none;">6</span>
+							<span id="numeros_posibles_7" class="no_seleccionable mostrar_numeros_posible" style="font-size:10px; line-height:10px; padding:0px; margin:0px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:none; -moz-text-size-adjust:none; text-size-adjust:none;">7</span>
+							<span id="numeros_posibles_8" class="no_seleccionable mostrar_numeros_posible" style="font-size:10px; line-height:10px; padding:0px; margin:0px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:none; -moz-text-size-adjust:none; text-size-adjust:none;">8</span>
+							<span id="numeros_posibles_9" class="no_seleccionable mostrar_numeros_posible" style="font-size:10px; line-height:10px; padding:0px; margin:0px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:none; -moz-text-size-adjust:none; text-size-adjust:none;">9</span>
+						</td>
+					<tr>
+				</table>
+			</div>
+			<!-- Fin de Numeros posibles. -->
+			<!-- Zona de juego: -->
+			<div id="zona_juego" class="no_seleccionable" style="visibility:hidden; display:none; background:#cccccc; color:#000000; left:10px; top:22px; width:455px; height:455px; padding:0px; position:absolute; font-size:80px; font-style:italic; line-height:80px; text-align:center; z-index:1; box-shadow:inset -4px -4px 18px 6px #ebebeb; -moz-box-shadow:inset -4px -4px 18px 6px #ebebeb; -webkit-box-shadow:inset -4px -4px 18px 6px #ebebeb; -o-box-shadow:inset -4px -4px 18px 6px #ebebeb; -khtml-box-shadow:inset -4px -4px 18px 6px #ebebeb;">
+			</div>
+			<!-- Fin de Zona de juego. -->
+			<!-- Mensaje: -->
+			<!-- <div id="mensaje_contenedor" class="no_seleccionable" style="background:#dddddd; left:0px; top:0px; width:100%; height:100%; padding:0px; position:absolute; z-index:10; transition:opacity 500ms; -moz-transition:opacity 500ms; -webkit-transition:opacity 500ms; -o-transition:opacity 500ms; -khtml-transition:opacity 500ms; -ms-transition:opacity 500ms; filter:alpha(opacity=80); opacity:0.8; -moz-opacity:0.8; -khtml-opacity:0.8; -ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=80)';"> -->
+			<div id="mensaje_contenedor" class="no_seleccionable visible" style="background:#dddddd; left:0px; top:0px; width:100%; height:100%; padding:0px; position:absolute; z-index:14;">
+				<table style="border:solid #333333 12px; width:100%; height:100%; text-align:center; color:#000000; font-size:20px; font-style:italic; font-weight:normal; line-height:20px;">
+					<tr>
+						<td id="mensaje" class="visible" valign="middle" style="vertical-align:middle;">
+							Loading...
+							<noscript>
+								<br />
+								<span style="color:#690000;">Failed to load:</span> <span style="color:#ff0000;">JavaScript not enabled!</span>
+							</noscript>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<!-- Fin de Mensaje. -->
+			<!-- Menu con numeros: -->
+			<div id="div_menu_numeros" class="no_seleccionable" style="visibility:hidden; border:0px #aaaaaa dashed; background:#dddddd; color:#000000; left:0px; top:0px; width:100%; height:100%; padding:0px; position:absolute; font-size:20px; line-height:20px; text-align:center; z-index:12; transition:opacity 500ms; -moz-transition:opacity 500ms; -webkit-transition:opacity 500ms; -o-transition:opacity 500ms; -khtml-transition:opacity 500ms; -ms-transition:opacity 500ms; filter:alpha(opacity=90); opacity:0.9; -moz-opacity:0.9; -khtml-opacity:0.9; -ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=90)';">
+				<div id="boton_cerrar" style="position:absolute; top:5px; right:5px; font-size:24px; line-height:24px; height:30px; padding:0px; font-family:arial; color:#696969; cursor: pointer; cursor: hand;">[x]</div>
+				<table style="width:100%; height:100%;">
+					<tr>
+						<td colspan="3" style="cursor:default; font-size:20px; font-family:verdana; color:#aa0000; vertical-align:middle; text-shadow:2px 2px 2px #aaaaaa;">
+							<center><span id="choose_a_number"></span></center>
+						</td>
+					</tr>
+					<tr>
+						<td style="text-align:center; vertical-align:middle;">
+							<center><div id="opcion_1" class="no_seleccionable opcion_posible" style="background:#dddddd; border:2px #bbbbbb dotted; color:#696969; width:63px; height:63px; padding:0px; font-size:46px; font-weight:bold; line-height:63px; text-align:center; cursor: pointer; cursor: hand; z-index:2; text-shadow:2px 2px 6px #696969; transition:color 200ms, border 200ms; -moz-transition:color 200ms, border 200ms; -webkit-transition:color 200ms, border 200ms; -o-transition:color 200ms, border 200ms; -khtml-transition:color 200ms, border 200ms; -ms-transition:color 200ms, border 200ms;" title="1">1</div></center>
+						</td>
+						<td style="text-align:center; vertical-align:middle;">
+							<center><div id="opcion_2" class="no_seleccionable opcion_posible" style="background:#dddddd; border:2px #bbbbbb dotted; color:#696969; width:63px; height:63px; padding:0px; font-size:46px; font-weight:bold; line-height:63px; text-align:center; cursor: pointer; cursor: hand; z-index:2; text-shadow:2px 2px 6px #696969; transition:color 200ms, border 200ms; -moz-transition:color 200ms, border 200ms; -webkit-transition:color 200ms, border 200ms; -o-transition:color 200ms, border 200ms; -khtml-transition:color 200ms, border 200ms; -ms-transition:color 200ms, border 200ms;" title="2">2</div></center>
+						</td>
+						<td style="text-align:center; vertical-align:middle;">
+							<center><div id="opcion_3" class="no_seleccionable opcion_posible" style="background:#dddddd; border:2px #bbbbbb dotted; color:#696969; width:63px; height:63px; padding:0px; font-size:46px; font-weight:bold; line-height:63px; text-align:center; cursor: pointer; cursor: hand; z-index:2; text-shadow:2px 2px 6px #696969; transition:color 200ms, border 200ms; -moz-transition:color 200ms, border 200ms; -webkit-transition:color 200ms, border 200ms; -o-transition:color 200ms, border 200ms; -khtml-transition:color 200ms, border 200ms; -ms-transition:color 200ms, border 200ms;" title="3">3</div></center>
+						</td>
+					</tr>
+					<tr>
+						<td style="text-align:center; vertical-align:middle;">
+							<center><div id="opcion_4" class="no_seleccionable opcion_posible" style="background:#dddddd; border:2px #bbbbbb dotted; color:#696969; width:63px; height:63px; padding:0px; font-size:46px; font-weight:bold; line-height:63px; text-align:center; cursor: pointer; cursor: hand; z-index:2; text-shadow:2px 2px 6px #696969; transition:color 200ms, border 200ms; -moz-transition:color 200ms, border 200ms; -webkit-transition:color 200ms, border 200ms; -o-transition:color 200ms, border 200ms; -khtml-transition:color 200ms, border 200ms; -ms-transition:color 200ms, border 200ms;" title="4">4</div></center>
+						</td>
+						<td style="text-align:center; vertical-align:middle;">
+							<center><div id="opcion_5" class="no_seleccionable opcion_posible" style="background:#dddddd; border:2px #bbbbbb dotted; color:#696969; width:63px; height:63px; padding:0px; font-size:46px; font-weight:bold; line-height:63px; text-align:center; cursor: pointer; cursor: hand; z-index:2; text-shadow:2px 2px 6px #696969; transition:color 200ms, border 200ms; -moz-transition:color 200ms, border 200ms; -webkit-transition:color 200ms, border 200ms; -o-transition:color 200ms, border 200ms; -khtml-transition:color 200ms, border 200ms; -ms-transition:color 200ms, border 200ms;" title="5">5</div></center>
+						</td>
+						<td style="text-align:center; vertical-align:middle;">
+							<center><div id="opcion_6" class="no_seleccionable opcion_posible" style="background:#dddddd; border:2px #bbbbbb dotted; color:#696969; width:63px; height:63px; padding:0px; font-size:46px; font-weight:bold; line-height:63px; text-align:center; cursor: pointer; cursor: hand; z-index:2; text-shadow:2px 2px 6px #696969; transition:color 200ms, border 200ms; -moz-transition:color 200ms, border 200ms; -webkit-transition:color 200ms, border 200ms; -o-transition:color 200ms, border 200ms; -khtml-transition:color 200ms, border 200ms; -ms-transition:color 200ms, border 200ms;" title="6">6</div></center>
+						</td>
+					</tr>
+					<tr>
+						<td style="text-align:center; vertical-align:middle;">
+							<center><div id="opcion_7" class="no_seleccionable opcion_posible" style="background:#dddddd; border:2px #bbbbbb dotted; color:#696969; width:63px; height:63px; padding:0px; font-size:46px; font-weight:bold; line-height:63px; text-align:center; cursor: pointer; cursor: hand; z-index:2; text-shadow:2px 2px 6px #696969; transition:color 200ms, border 200ms; -moz-transition:color 200ms, border 200ms; -webkit-transition:color 200ms, border 200ms; -o-transition:color 200ms, border 200ms; -khtml-transition:color 200ms, border 200ms; -ms-transition:color 200ms, border 200ms;" title="7">7</div></center>
+						</td>
+						<td style="text-align:center; vertical-align:middle;">
+							<center><div id="opcion_8" class="no_seleccionable opcion_posible" style="background:#dddddd; border:2px #bbbbbb dotted; color:#696969; width:63px; height:63px; padding:0px; font-size:46px; font-weight:bold; line-height:63px; text-align:center; cursor: pointer; cursor: hand; z-index:2; text-shadow:2px 2px 6px #696969; transition:color 200ms, border 200ms; -moz-transition:color 200ms, border 200ms; -webkit-transition:color 200ms, border 200ms; -o-transition:color 200ms, border 200ms; -khtml-transition:color 200ms, border 200ms; -ms-transition:color 200ms, border 200ms;" title="8">8</div></center>
+						</td>
+						<td style="text-align:center; vertical-align:middle;">
+							<center><div id="opcion_9" class="no_seleccionable opcion_posible" style="background:#dddddd; border:2px #bbbbbb dotted; color:#696969; width:63px; height:63px; padding:0px; font-size:46px; font-weight:bold; line-height:63px; text-align:center; cursor: pointer; cursor: hand; z-index:2; text-shadow:2px 2px 6px #696969; transition:color 200ms, border 200ms; -moz-transition:color 200ms, border 200ms; -webkit-transition:color 200ms, border 200ms; -o-transition:color 200ms, border 200ms; -khtml-transition:color 200ms, border 200ms; -ms-transition:color 200ms, border 200ms;" title="9">9</div></center>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="3">
+							<center><div id="opcion_10" class="no_seleccionable opcion_posible" style="background:#dddddd; border:2px #bbbbbb dotted; color:#696969; width:40px; height:40px; padding:0px; font-size:30px; font-weight:bold; line-height:40px; text-align:center; cursor: pointer; cursor: hand; z-index:2; text-shadow:2px 2px 6px #696969; transition:color 200ms, border 200ms; -moz-transition:color 200ms, border 200ms; -webkit-transition:color 200ms, border 200ms; -o-transition:color 200ms, border 200ms; -khtml-transition:color 200ms, border 200ms; -ms-transition:color 200ms, border 200ms;">0</div></center>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<!-- Fin de Menu con numeros. -->
+			<!-- Formulario: -->
+			<div id="boton_esconder_panel_hotkey" style="position:absolute; left:12px; top:92%; z-index:3; visibility:hidden; display:none;" class="hotkey_visible">H</div>
+			<span id="boton_esconder_panel" class="no_seleccionable" style="visibility:hidden; position:absolute; padding:0px; margin:0px; left:0px; top:0px; z-index:2; font-size:11px; color:#696969; cursor:pointer; cursor:hand;">[ &darr; ]</span>
+			<div id="div_formulario_numeros_iniciales" class="no_seleccionable opaco" style="visibility:visible; display:inline; border:2px #aaaaaa dashed; background:#dddddd; color:#000000; left:0px; top:0px; padding:0px; margin:0px; position:absolute; font-size:22px; line-height:40px; text-align:center; z-index:11; overflow:hidden;">
+				<form id="formulario_numeros_iniciales" class="no_seleccionable" style="visibility:hidden; display:none;">
+						<div id="numeros_iniciales_hotkey" style="position:absolute; left:50%; top:10px; z-index:3; visibility:hidden; display:none;" class="hotkey_visible">N</div>
+						<label for="numeros_iniciales" accesskey="n" style="cursor: pointer; cursor: hand;">
+							<span id="numeros_iniciales_texto" style="padding:0px; margin:0px; text-shadow:2px 2px 4px #696969;"></span>
+						</label>
+						<select name="numeros_iniciales" accesskey="n" id="numeros_iniciales" style="padding:0px; margin:0px; height:28px; width:65px;">
+						</select>
+						<input type="button" id="boton_crear" value="OK" name="boton_crear" style="border:1px solid #ffffff; color:#000000; background:#cccccc; margin:0px; padding:0px; font-size:16px; font-family:arial; height:28px; line-height:20px; text-align:center; width:65px; cursor: pointer; cursor: hand; border-radius:12px; -moz-border-radius:12px; -webkit-border-radius:12px; -khtml-border-radius:12px; -webkit-appearance:none;">
+				</form>
+				<!-- Informacion: -->
+				<div id="credits" class="no_seleccionable" style="display:block; border:0px; padding:0px; margin:0px; background:transparent; color:#333333; text-align:right; line-height:9px; text-decoration:none; font-family:arial; font-size:9px; cursor:default; z-index:10;">
+					&copy; 2006-<span id="credits_year">2014</span> <span style="font-weight:bold;">Yasminoku</span> by <i><a href="mailto:joanalbamaldonado@NO_SPAM_PLASEgmail.com?subject=yasminoku" id="email" target="_blank">Joan Alba Maldonado</a></i>
+				</div>
+				<!-- Fin de Informacion. -->
+			</div>
+			<!-- Fin de Formulario. -->
+			<!-- Precarga imagenes: -->
+			<img src="icon.png" width="1" height="1" style="display:none; visibility:hidden; width:1px; height:1px; z-index:1;" />
+			<!-- Fin de Precarga imagenes. -->
+		</div>
+		<!-- Fin de Contenedor general. -->
+		<!-- (c) Yasminoku by Joan Alba Maldonado (joanalbamaldonado@NO_SPAM_PLEASEgmail.com). Forbidden to publish, copy or modify without mentioning the author's name. -->
+	</body>
+</html>
