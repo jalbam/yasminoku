@@ -22,3 +22,4 @@
 *.RTF	 diff=astextplain
 
 *.htm linguist-vendored=true
+*.php linguist-detectable=false
