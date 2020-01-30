@@ -21,5 +21,15 @@
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
 
-*.htm linguist-vendored=true
+yasminoku_025a_english/*.htm linguist-language=JavaScript
+yasminoku_025a_english/*.html linguist-language=JavaScript
+
+yasminoku_025a_spanish/*.htm linguist-language=JavaScript
+yasminoku_025a_spanish/*.html linguist-language=JavaScript
+
+yasminoku_025a_unofficial_translations/*.htm linguist-language=JavaScript
+yasminoku_025a_unofficial_translations/*.html linguist-language=JavaScript
+
+homepage/* linguist-detectable=false
+*.css linguist-detectable=false
 *.php linguist-detectable=false
