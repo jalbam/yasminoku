@@ -32,3 +32,4 @@ homepage/* linguist-detectable=false
 
 *.css linguist-detectable=false
 *.php linguist-detectable=false
+*.htm linguist-language=JavaScript
